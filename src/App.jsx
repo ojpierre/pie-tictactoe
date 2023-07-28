@@ -1,7 +1,11 @@
-import React from "react";
+import TicTacToe from "../src/tictactoe.jsx";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <TicTacToe />
+    </div>
+  );
 };
 
 export default App;
